@@ -1,0 +1,42 @@
+.box{
+    width:600px;
+    height:600px;
+    background-color: rgba(0,0,0,0.35);
+}
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.container{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header div{
+    font-size: 30px;
+}
+
+.picContainer{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body{
+    background-image: url("./storm-11970_256.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;}
+    h1{
+        text-size-adjust: 20;
+        text-align: center;
+    }
